@@ -1,0 +1,19 @@
+0.  png, bmp and jpeg - 16.7 milliom colors, gif - 256 colors
+1.  GIF
+2.  With lossless compression, when file is uncompressed all of the information can be completely restored
+3.  JPEG
+4.  When a file or directory is deleted under a FAT filesystem, the first character of its name is changed to sigma. The remainder of the directory entry information remains intact.
+5.  Use a data-destruction software
+6.  stdint.h is a header file that provides a set of typedefs that specify exact-width integer types
+7.  By using these types you are telling the computer of what width in bits the integer you need
+8.  BYTE 1, DWORD 4, LONG 4, WORD 2
+9.  BMP magic number in hex is 42 4D
+10. biSize is number of bytes required by the structure. bfSize is size in bytes of bitmap file
+11. If biHeight is negative then the origin of the file is top-left corner
+12. biBitCount
+13. It can return NULL if it fails to create the file
+14. 1 means that it reads one element
+15. 3
+16. Its purpose is to change the file position indicator for the specified stream
+17. If "from" is SEEK_CUR, "fseek" sets things up so the next input or output on "f" will be "offset" bytes from the current position in the file
+18. Rob Bowden
